@@ -1,6 +1,6 @@
 webpackJsonp([41],{
 
-/***/ 2019:
+/***/ 2018:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__coursesplit__ = __webpack_require__(2165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__coursesplit__ = __webpack_require__(2164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(981);
@@ -63,7 +63,7 @@ var CoreGradesCourseSplitPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2165:
+/***/ 2164:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -107,7 +107,7 @@ var CoreGradesCourseSplitPage = /** @class */ (function () {
     }
     CoreGradesCourseSplitPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-grades-course-split',template:/*ion-inline-start:"C:\OSPanel\domains\moodlemobiledirectory\src\core\grades\pages\coursesplit\coursesplit.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.grades.grades\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-split-view>\n\n    <core-grades-course class="core-avoid-header" [courseId]="courseId" [userId]="userId" [gradeId]="gradeId"></core-grades-course>\n\n</core-split-view>\n\n\n\n\n\n'/*ion-inline-end:"C:\OSPanel\domains\moodlemobiledirectory\src\core\grades\pages\coursesplit\coursesplit.html"*/,
+            selector: 'page-core-grades-course-split',template:/*ion-inline-start:"D:\Moodle Projects\moodle2\src\core\grades\pages\coursesplit\coursesplit.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.grades.grades\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-split-view>\n\n    <core-grades-course class="core-avoid-header" [courseId]="courseId" [userId]="userId" [gradeId]="gradeId"></core-grades-course>\n\n</core-split-view>\n\n\n\n\n\n'/*ion-inline-end:"D:\Moodle Projects\moodle2\src\core\grades\pages\coursesplit\coursesplit.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]])
     ], CoreGradesCourseSplitPage);

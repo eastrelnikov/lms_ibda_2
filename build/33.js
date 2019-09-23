@@ -1,6 +1,6 @@
 webpackJsonp([33],{
 
-/***/ 2024:
+/***/ 2023:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginSiteHelpPageModule", function() { return CoreLoginSiteHelpPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__site_help__ = __webpack_require__(2170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__site_help__ = __webpack_require__(2169);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
@@ -57,7 +57,7 @@ var CoreLoginSiteHelpPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2170:
+/***/ 2169:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103,7 +103,7 @@ var CoreLoginSiteHelpPage = /** @class */ (function () {
     };
     CoreLoginSiteHelpPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-login-site-help',template:/*ion-inline-start:"C:\OSPanel\domains\moodlemobiledirectory\src\core\login\pages\site-help\site-help.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.login.help\' | translate }}</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeHelp()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n    <core-format-text [text]="\'core.login.helpmelogin\' | translate"></core-format-text>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\OSPanel\domains\moodlemobiledirectory\src\core\login\pages\site-help\site-help.html"*/,
+            selector: 'page-core-login-site-help',template:/*ion-inline-start:"D:\Moodle Projects\moodle2\src\core\login\pages\site-help\site-help.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.login.help\' | translate }}</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeHelp()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n    <core-format-text [text]="\'core.login.helpmelogin\' | translate"></core-format-text>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Moodle Projects\moodle2\src\core\login\pages\site-help\site-help.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["G" /* ViewController */]])
     ], CoreLoginSiteHelpPage);

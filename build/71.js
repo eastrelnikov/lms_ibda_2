@@ -1,6 +1,6 @@
 webpackJsonp([71],{
 
-/***/ 1995:
+/***/ 1996:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10,7 +10,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toc__ = __webpack_require__(2141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toc__ = __webpack_require__(2142);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -57,7 +57,7 @@ var AddonModScormTocPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2141:
+/***/ 2142:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -122,7 +122,7 @@ var AddonModScormTocPage = /** @class */ (function () {
     };
     AddonModScormTocPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-scorm-toc',template:/*ion-inline-start:"C:\OSPanel\domains\moodlemobiledirectory\src\addon\mod\scorm\pages\toc\toc.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.mod_scorm.toc\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <nav>\n\n        <ion-list>\n\n            <ion-item text-wrap *ngIf="attemptToContinue">\n\n                <p>{{ \'addon.mod_scorm.dataattemptshown\' | translate:{number: attemptToContinue} }}</p>\n\n            </ion-item>\n\n            <ion-item text-center *ngIf="isBrowse">\n\n                <p>{{ \'addon.mod_scorm.browsemode\' | translate }}</p>\n\n            </ion-item>\n\n            <ion-item text-center *ngIf="isReview">\n\n                <p>{{ \'addon.mod_scorm.reviewmode\' | translate }}</p>\n\n            </ion-item>\n\n\n\n            <!-- List of SCOs. -->\n\n            <ng-container *ngFor="let sco of toc">\n\n                <a *ngIf="sco.isvisible" ion-item text-wrap [ngClass]="\'core-padding-\' + sco.level" [class.core-nav-item-selected]="selected == sco.id" (click)="loadSco(sco)" [attr.disabled]="!sco.prereq || !sco.launch ? true : null" [attr.detail-none]="!sco.prereq || !sco.launch ? true : null">\n\n                    <img [src]="sco.image.url" [alt]="sco.image.description" />\n\n                    <span>{{ sco.title }}</span>\n\n                </a>\n\n            </ng-container>\n\n        </ion-list>\n\n    </nav>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\OSPanel\domains\moodlemobiledirectory\src\addon\mod\scorm\pages\toc\toc.html"*/
+            selector: 'page-addon-mod-scorm-toc',template:/*ion-inline-start:"D:\Moodle Projects\moodle2\src\addon\mod\scorm\pages\toc\toc.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.mod_scorm.toc\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <nav>\n\n        <ion-list>\n\n            <ion-item text-wrap *ngIf="attemptToContinue">\n\n                <p>{{ \'addon.mod_scorm.dataattemptshown\' | translate:{number: attemptToContinue} }}</p>\n\n            </ion-item>\n\n            <ion-item text-center *ngIf="isBrowse">\n\n                <p>{{ \'addon.mod_scorm.browsemode\' | translate }}</p>\n\n            </ion-item>\n\n            <ion-item text-center *ngIf="isReview">\n\n                <p>{{ \'addon.mod_scorm.reviewmode\' | translate }}</p>\n\n            </ion-item>\n\n\n\n            <!-- List of SCOs. -->\n\n            <ng-container *ngFor="let sco of toc">\n\n                <a *ngIf="sco.isvisible" ion-item text-wrap [ngClass]="\'core-padding-\' + sco.level" [class.core-nav-item-selected]="selected == sco.id" (click)="loadSco(sco)" [attr.disabled]="!sco.prereq || !sco.launch ? true : null" [attr.detail-none]="!sco.prereq || !sco.launch ? true : null">\n\n                    <img [src]="sco.image.url" [alt]="sco.image.description" />\n\n                    <span>{{ sco.title }}</span>\n\n                </a>\n\n            </ng-container>\n\n        </ion-list>\n\n    </nav>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Moodle Projects\moodle2\src\addon\mod\scorm\pages\toc\toc.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["G" /* ViewController */]])
     ], AddonModScormTocPage);

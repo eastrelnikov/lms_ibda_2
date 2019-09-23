@@ -1,6 +1,6 @@
 webpackJsonp([57],{
 
-/***/ 2005:
+/***/ 2006:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCommentsAddPageModule", function() { return CoreCommentsAddPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add__ = __webpack_require__(2151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add__ = __webpack_require__(2152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
@@ -57,7 +57,7 @@ var CoreCommentsAddPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2151:
+/***/ 2152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -145,7 +145,7 @@ var CoreCommentsAddPage = /** @class */ (function () {
     };
     CoreCommentsAddPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-comments-add',template:/*ion-inline-start:"C:\OSPanel\domains\moodlemobiledirectory\src\core\comments\pages\add\add.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.comments.addcomment\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <form name="itemEdit" (ngSubmit)="addComment($event)">\n\n        <ion-item>\n\n            <ion-textarea placeholder="{{ \'core.comments.addcomment\' | translate }}" rows="5" [(ngModel)]="content" name="content" required="required"></ion-textarea>\n\n        </ion-item>\n\n        <div padding>\n\n            <button ion-button block type="submit" [disabled]="processing || content.length < 1">\n\n                {{ \'core.comments.savecomment\' | translate }}\n\n            </button>\n\n        </div>\n\n    </form>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\OSPanel\domains\moodlemobiledirectory\src\core\comments\pages\add\add.html"*/,
+            selector: 'page-core-comments-add',template:/*ion-inline-start:"D:\Moodle Projects\moodle2\src\core\comments\pages\add\add.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.comments.addcomment\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <form name="itemEdit" (ngSubmit)="addComment($event)">\n\n        <ion-item>\n\n            <ion-textarea placeholder="{{ \'core.comments.addcomment\' | translate }}" rows="5" [(ngModel)]="content" name="content" required="required"></ion-textarea>\n\n        </ion-item>\n\n        <div padding>\n\n            <button ion-button block type="submit" [disabled]="processing || content.length < 1">\n\n                {{ \'core.comments.savecomment\' | translate }}\n\n            </button>\n\n        </div>\n\n    </form>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Moodle Projects\moodle2\src\core\comments\pages\add\add.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["G" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */],
             __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_comments__["a" /* CoreCommentsProvider */]])

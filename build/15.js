@@ -1,6 +1,6 @@
 webpackJsonp([15],{
 
-/***/ 2041:
+/***/ 2040:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__search__ = __webpack_require__(2187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__search__ = __webpack_require__(2186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
@@ -60,7 +60,7 @@ var CoreTagSerchPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2187:
+/***/ 2186:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -211,7 +211,7 @@ var CoreTagSearchPage = /** @class */ (function () {
     };
     CoreTagSearchPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-tag-search',template:/*ion-inline-start:"C:\OSPanel\domains\moodlemobiledirectory\src\core\tag\pages\search\search.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.tag.searchtags\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-12 [attr.col-sm-6]="collections && collections.length > 1 ? \'\' : null">\n\n                <core-search-box (onSubmit)="searchTags($event)" (onClear)="searchTags(\'\')" [initialSearch]="query" [disabled]="searching" autocorrect="off" [spellcheck]="false" [autoFocus]="true" [lengthCheck]="0"></core-search-box>\n\n            </ion-col>\n\n            <ion-col col-12 col-sm-6 *ngIf="collections && collections.length > 1">\n\n                <ion-select text-start [(ngModel)]="collectionId" (ngModelChange)="searchTags(query)" [disabled]="searching" interface="popover" class="core-button-select">\n\n                    <ion-option [value]="0">{{ \'core.tag.inalltagcoll\' | translate }}</ion-option>\n\n                    <ion-option *ngFor="let collection of collections" [value]="collection.id">{{ collection.name }}</ion-option>\n\n                </ion-select>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n    <core-loading [hideUntil]="loaded && !searching">\n\n        <core-empty-box *ngIf="!cloud || !cloud.tags || !cloud.tags.length" icon="pricetags" [message]="\'core.tag.notagsfound\' | translate: {$a: query}"></core-empty-box>\n\n\n\n        <ng-container *ngIf="cloud && cloud.tags && cloud.tags.length > 0">\n\n            <div text-center class="core-tag-cloud">\n\n                <ion-badge *ngFor="let tag of cloud.tags" (click)="openTag(tag)" text-wrap>\n\n                   <span [class]="\'size\' + tag.size" >{{ tag.name }}</span>\n\n                </ion-badge>\n\n            </div>\n\n            <p *ngIf="cloud.tags.length < cloud.totalcount" text-center>\n\n                {{ \'core.tag.showingfirsttags\' | translate: {$a: cloud.tags.length} }}\n\n            </p>\n\n        </ng-container>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\OSPanel\domains\moodlemobiledirectory\src\core\tag\pages\search\search.html"*/,
+            selector: 'page-core-tag-search',template:/*ion-inline-start:"D:\Moodle Projects\moodle2\src\core\tag\pages\search\search.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.tag.searchtags\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-12 [attr.col-sm-6]="collections && collections.length > 1 ? \'\' : null">\n\n                <core-search-box (onSubmit)="searchTags($event)" (onClear)="searchTags(\'\')" [initialSearch]="query" [disabled]="searching" autocorrect="off" [spellcheck]="false" [autoFocus]="true" [lengthCheck]="0"></core-search-box>\n\n            </ion-col>\n\n            <ion-col col-12 col-sm-6 *ngIf="collections && collections.length > 1">\n\n                <ion-select text-start [(ngModel)]="collectionId" (ngModelChange)="searchTags(query)" [disabled]="searching" interface="popover" class="core-button-select">\n\n                    <ion-option [value]="0">{{ \'core.tag.inalltagcoll\' | translate }}</ion-option>\n\n                    <ion-option *ngFor="let collection of collections" [value]="collection.id">{{ collection.name }}</ion-option>\n\n                </ion-select>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n    <core-loading [hideUntil]="loaded && !searching">\n\n        <core-empty-box *ngIf="!cloud || !cloud.tags || !cloud.tags.length" icon="pricetags" [message]="\'core.tag.notagsfound\' | translate: {$a: query}"></core-empty-box>\n\n\n\n        <ng-container *ngIf="cloud && cloud.tags && cloud.tags.length > 0">\n\n            <div text-center class="core-tag-cloud">\n\n                <ion-badge *ngFor="let tag of cloud.tags" (click)="openTag(tag)" text-wrap>\n\n                   <span [class]="\'size\' + tag.size" >{{ tag.name }}</span>\n\n                </ion-badge>\n\n            </div>\n\n            <p *ngIf="cloud.tags.length < cloud.totalcount" text-center>\n\n                {{ \'core.tag.showingfirsttags\' | translate: {$a: cloud.tags.length} }}\n\n            </p>\n\n        </ng-container>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Moodle Projects\moodle2\src\core\tag\pages\search\search.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */],
             __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_utils__["a" /* CoreUtilsProvider */],
