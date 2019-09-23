@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "852915674724",
+    "firebase_url": "https://lms-ibda.firebaseio.com",
+    "project_id": "lms-ibda",
+    "storage_bucket": "lms-ibda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852915674724:android:a2d1235975f668e5848971",
+        "android_client_info": {
+          "package_name": "com.moodle.ibda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852915674724-hurk78lmicmcoscus12k0km8ftf0scss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhZbKf0epPAIYU84nAewVKL_olyxRsw5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852915674724-hurk78lmicmcoscus12k0km8ftf0scss.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "852915674724-kvo98e8rjhrpilve08ripng72vva92j7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.moodle.ibda"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
